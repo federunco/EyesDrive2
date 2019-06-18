@@ -1,0 +1,6 @@
+Protocollo EyesDrive Datagram Protocol (E2DP)
+
+| LEN BYTE  | 4 byte | 1 byte | 1 byte
+| CONTENUTO | "ED2P" | DATO   | checksum
+
+totale 6 byte, esempio di pacchetto in datagram.ed2p
